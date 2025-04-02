@@ -35,3 +35,11 @@ print(selfish[::-1])
 #strings are immutable, you can reasign a new value to an index of a string
 
 
+#TYPE CONVERSIONS
+
+birth_year= int(input('What year were you born'))
+
+age = 2025 - birth_year
+
+print(f'Awesome there, you are {age} years old')
+
