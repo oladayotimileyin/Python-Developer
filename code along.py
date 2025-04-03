@@ -43,3 +43,17 @@ age = 2025 - birth_year
 
 print(f'Awesome there, you are {age} years old')
 
+
+##list & list slicing
+#use [ ] for lists
+
+jumia_cart =[
+    "Sweater",
+    "notebooks",
+    "toys",
+    "laptop"
+    ]
+
+##slice
+
+print(jumia_cart[0:2])
