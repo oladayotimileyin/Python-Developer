@@ -1,59 +1,59 @@
-##type conversion
+# type conversion
 print(type(str(100)))
 
-##escape sequence
-## add \
+# escape sequence
+# add \
 
-weather= "It\'s \"kind of\" sunny"
+weather = "It\'s \"kind of\" sunny"
 
 print(weather)
 
 # you can add a new line
-weather= "It\'s \"kind of\" sunny \n hope you have a good day!"
+weather = "It\'s \"kind of\" sunny \n hope you have a good day!"
 
 print(weather)
 
-##formated string - add f in the beginning
+# formated string - add f in the beginning
 
 name = 'Timileyin'
 Age = 32
 
 print(f'Hi! {name}, you are {Age} year old today')
 
-## string indexing
+# string indexing
 
-## variable[start:stop:stepover]
+# variable[start:stop:stepover]
 selfish = 'me me me'
 
 print(selfish[:4:2])
 
-#reverse order
+# reverse order
 print(selfish[::-1])
 
-##immutability
+# immutability
 
-#strings are immutable, you can reasign a new value to an index of a string
+# strings are immutable, you can reasign a new value to an index of a string
 
 
-#TYPE CONVERSIONS
+# TYPE CONVERSIONS
 
-birth_year= int(input('What year were you born'))
+birth_year = int(input('What year were you born'))
 
 age = 2025 - birth_year
 
 print(f'Awesome there, you are {age} years old')
 
 
-##list & list slicing
-#use [ ] for lists
+# list & list slicing
+# use [ ] for lists
 
-jumia_cart =[
+jumia_cart = [
     "Sweater",
     "notebooks",
     "toys",
     "laptop"
-    ]
+]
 
-##slice
+# slice
 
 print(jumia_cart[0:2])
