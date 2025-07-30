@@ -22,3 +22,4 @@ class Wizard(User):
 wizard1 = Wizard("Merlin", 50, "merling@hot.com")
 
 print(dir(wizard1.email))
+
